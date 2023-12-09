@@ -5,7 +5,7 @@ import cv2
 try:
     cv2 = importlib.import_module('cv2')
 except ImportError:
-    cv2_spec = importlib.util.find_spec('cv2')#eeeeeeeeeeeeeeeeeeeeeee
+    cv2_spec = importlib.util.find_spec('cv2')#eeeeeeeeeeeeeeeeeeeeeee幹
     cv2 = importlib.util.module_from_spec(cv2_spec)
     cv2_spec.loader.exec_module(cv2)
 
@@ -13,7 +13,7 @@ except ImportError:
 def do_nothing(x):
     pass
 
-# 创建一个窗口以显示图像
+# 创建一个窗口以显示图像kkkk
 cv2.namedWindow('Result')
 
 # 创建一个动态调整控制条，可以用来调整阈值
