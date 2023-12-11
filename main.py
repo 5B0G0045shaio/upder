@@ -5,7 +5,7 @@ import cv2
 try:
     cv2 = importlib.import_module('cv2')
 except ImportError:
-    cv2_spec = importlib.util.find_spec('cv2')#eeeeeeeeeeeeeeeeeeeeeee幹幹333
+    cv2_spec = importlib.util.find_spec('cv2')#eeeeeeeeeeeeeeeeeeeeeee幹幹333lmvmvmvvmmvvvmmvmvv
     cv2 = importlib.util.module_from_spec(cv2_spec)
     cv2_spec.loader.exec_module(cv2)
 
